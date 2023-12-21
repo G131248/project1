@@ -1,0 +1,1230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:white;
+    height: 7000;
+    width:950;
+}
+
+.back{
+    width: 100%;
+    height: 70px;
+    background-color:black;
+    position: relative;
+
+}
+.header {
+    width:80% ;
+    height:70px;
+    background-color:rgba(0,0, 0, 0.5);
+    float:right;
+    text-align: center;
+   z-index: 50;
+   position: fixed;
+   margin:auto;
+   transform: translate(+15%);
+}
+.list{
+    list-style-type: none;
+    color:white;
+padding: 10;
+word-spacing: 15;
+padding-left: 300;
+    
+}
+.list  li{ 
+    display: inline-block;
+margin: 5px;
+}
+.list li a {
+    color:rgb(240, 24, 24);
+    font-size: large;
+    text-decoration: none; 
+}
+
+.img1 {
+    width:100;
+    height: 70;
+    float: left;
+}
+
+
+.div1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/ddd.jpg) ;
+    position: relative;
+ }
+
+ .overley {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba( 0,0 , 0, 0.6) ;
+    opacity: 1;
+ }
+
+ .content {
+    width: 60%;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+ }
+ .title10 {
+    color: #fff;
+    font-size: 55px;
+ }
+
+ .p10 {
+    color: #f0f0f0;
+    letter-spacing: 2px ;
+    margin: 15px  0px;
+ }
+
+ .btn {
+    width: 135px;
+    height: 47px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-right: 12px;
+   
+ }
+ .btn2 {
+    background-color: blue;
+    color: #fff;
+ }
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.price1{
+    width:50;
+    height:50;
+    outline: auto;
+    border-radius: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(0, 166, 255);
+}
+.dollar1{
+    text-align:center;
+   padding-top:15 ;
+}
+
+.dpu1{
+    width:100px;
+    height:30;
+    margin: auto;
+    
+}
+
+.h2pu1{
+    font-size: 15;
+    color:blue;
+    padding: bottom 5px;
+  
+}
+.price2{
+    width:50;
+    height:50;
+    outline: auto;
+    border-radius: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(0, 166, 255);
+}
+.dollar2{
+    text-align:center;
+   padding-top:15 ;
+}
+
+.dpu2{
+    width:100px;
+    height:30;
+    margin: auto;
+}
+
+.h2pu2{
+    font-size: 15;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 10;
+}
+
+.price3{
+    width:50;
+    height:50;
+    outline: auto;
+    border-radius: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(0, 166, 255);
+}
+.dollar3{
+    text-align:center;
+   padding-top:15 ;
+}
+
+.dpu3{
+    width:100px;
+    height:30;
+    margin: auto;
+}
+
+.h2pu3{
+    font-size: 15;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 10;
+}
+.parent{
+    margin-top:100px;
+    position: relative;
+}
+
+.d1{
+    width: 200;
+    height: 250;
+    border-style: solid;
+    border-color: grey;
+    float: left;
+    margin-left:100;
+    text-align: center;                         
+}
+.d2{
+    width: 200;
+    height: 250;
+    border-style: solid;
+    border-color: grey;
+    float: left;
+    margin-left: 50;
+    text-align: center;
+    
+}
+.d3{
+    width: 200;
+    height: 250;
+    border-style: solid;
+    border-color: grey;
+    float: left;
+    margin-left: 50;
+    text-align: center;
+}
+
+hr{
+    width: 50px;
+    margin: auto;
+    color:blue;
+}
+.title{
+    opacity: 1; 
+    font-size: x-large; 
+}
+h2{
+    opacity: 1;
+    font-size: large;
+}
+.sub1{
+    padding-top: 10px;
+}
+.sub2{
+    padding-top: 10px;
+}
+.sub3{
+    padding-top: 10px;
+}
+
+.i{
+    color: blue;
+}
+.firstline1{
+    opacity: 0.5;
+}
+.firstline12{
+    opacity: 0.5;
+}
+.firstline13{
+    opacity: 0.5;
+}
+.secoundline1{
+    opacity: 0.5;
+}
+.secoundline2{
+    opacity: 0.5;
+}
+.secoundline3{
+    opacity: 0.5;
+}
+.thirdline1{
+    opacity: 0.5;
+}
+.thirdline2{
+    opacity: 0.5;
+}
+.thirdline3{
+    opacity: 0.5;
+}
+i {
+    padding-top: 10px;
+    }
+    body{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .ffirstline{
+        text-align: center;
+        color: blue;
+        font-size: xx-large;
+       
+    }
+    .Bline{
+        height: 3px;
+        width: 30px;
+        margin: auto;
+        background-color: blue;
+        margin-bottom: 50px;
+    }
+    
+    .container2{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .allteams{
+        overflow: auto;
+    } 
+    
+    .team-item1{
+        float: left;
+        width: 30%;
+        padding: 15px 15px;
+        background-color: gray;
+        text-align: center;
+        position: relative;
+    
+    }
+    .team-item2{
+        float: left;
+        width: 30%;
+        margin: 0px 5%;
+        padding: 15px 15px;
+        background-color: gray;
+        text-align: center;
+        position: relative;
+    }
+    
+    .team-item3{
+        float: left;
+        width: 30%;
+        padding: 15px 15px;
+        background-color: gray;
+        text-align: center;
+        position: relative;
+    }
+    .image{
+        background-color: brown;
+        position: relative;
+    }
+    .team-item1 img{
+        width: 100%;
+    }
+    .team-overlay{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0,0, 0, 0.5);
+        visibility: hidden;
+        opacity: 0;
+       transition: 3s;
+    }
+    .team-item1:hover .team-overlay{
+        visibility: visible;
+        opacity: 0.7;
+    }
+    .team-item2:hover .team-overlay{
+        visibility: visible;
+        opacity: 0.7;
+    }
+    .team-item3:hover .team-overlay{
+        visibility: visible;
+        opacity: 0.7;
+    }
+    .team-item2:hover .team-overlay{
+        visibility: visible;
+    }
+    .team-item3:hover .team-overlay{
+        visibility: visible;
+    }
+    .team-item1::after{
+        position: absolute;
+        content: "";
+        height: 0%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: aquamarine;
+        opacity: 0;
+    }
+    .team-item1:hover::after{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        transition: 1s;
+    }
+    .team-item2::after{
+        position: absolute;
+        content: "";
+        height: 0%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: aquamarine;
+        opacity: 0;
+    }
+    .team-item2:hover::after{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        transition: 1s;
+    }
+    .team-item3::after{
+        position: absolute;
+        content: "";
+        height: 0%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: aquamarine;
+        opacity: 0;
+    }
+    .team-item3:hover::after{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        transition: 1s;
+    }
+    .team-overlay a{
+        display: block;
+        width:25;
+        height: 25;
+    color:blue;
+    font-size: 20;
+    margin-left:auto;
+    }
+    
+    .team-overlay  a  i{
+        line: height 20px;
+    }
+    .t1{
+        text-transform: uppercase;
+        padding: 0px 5px;
+        color:blueviolet;
+    }
+    .t2{
+        text-transform: uppercase;
+        padding: 0px 5px;
+        color:blueviolet;
+    }
+    .t3{
+        text-transform: uppercase;
+        padding: 0px 5px;
+        color:blueviolet;
+    }
+    .s1{
+        text-transform: capitalize;
+    
+    }
+    .s2{
+        text-transform: capitalize;
+    }
+    .s3{
+        text-transform: capitalize;
+    }
+    .allteams:hover .s1{
+    
+    color: aqua;
+    }
+    .allteams:hover .s2{
+    
+        color: aqua;
+        }
+        .allteams:hover .s3{
+    
+            color: aqua;
+            }
+
+            price1{
+    width:50;
+    height:50;
+    outline: auto;
+    border-radius: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(0, 166, 255);
+}
+.dollar1{
+    text-align:center;
+   padding-top:15 ;
+}
+
+
+.dpu1{
+    width:100px;
+    height:30;
+    margin: auto;
+    
+}
+
+.h2pu1{
+    font-size: 15;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 10;
+}
+.price2{
+    width:50;
+    height:50;
+    outline: auto;
+    border-radius: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(0, 166, 255);
+}
+.dollar2{
+    text-align:center;
+   padding-top:15 ;
+}
+
+.dpu2{
+    width:100px;
+    height:30;
+    margin: auto;
+}
+
+.h2pu2{
+    font-size: 15;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 10;
+}
+
+.price3{
+    width:50;
+    height:50;
+    outline: auto;
+    border-radius: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(0, 166, 255);
+}
+.dollar3{
+    text-align:center;
+   padding-top:15 ;
+}
+
+.dpu3{
+    width:100px;
+    height:30;
+    margin: auto;
+}
+
+.h2pu3{
+    font-size: 15;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 10;
+}
+.parent{
+    margin-top:100px;
+    position: relative;
+}
+.d1{
+    width: 200;
+    height: 200;
+    border-style: solid;
+    border-color: grey;
+    float: left;
+    margin-left:100;
+    text-align: center;                         
+}
+.d1::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 1;
+}
+.d1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.d2{
+    width: 200;
+    height: 200;
+    border-style: solid;
+    border-color: grey;
+    float: left;
+    margin-left: 50;
+    text-align: center;
+    
+}
+.d3{
+    width: 200;
+    height: 200;
+    border-style: solid;
+    border-color: grey;
+    float: left;
+    margin-left: 50;
+    text-align: center;
+}
+
+hr{
+    width: 50px;
+    margin: auto;
+    text-decoration: blue;
+}
+.title{
+    opacity: 0.5; 
+    font-size: x-large; 
+}
+h2{
+    opacity: 0.5;
+    font-size: small;
+}
+.sub1{
+    padding-top: 10px;
+}
+.sub2{
+    padding-top: 10px;
+}
+.sub3{
+    padding-top: 10px;
+}
+
+
+
+.container2{
+    width: 80%;
+    margin: auto;
+}
+
+.allteams{
+    overflow: auto;
+} 
+
+.team-item1{
+    float: left;
+    width: 30%;
+    padding: 15px 15px;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+
+}
+.team-item2{
+    float: left;
+    width: 30%;
+    margin: 0px 5%;
+    padding: 15px 15px;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+}
+
+.team-item3{
+    float: left;
+    width: 30%;
+    padding: 15px 15px;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+}
+.image{
+    background-color: brown;
+    position: relative;
+}
+.team-item1 img{
+    width: 100%;
+}
+.team-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+   transition: 3s;
+}
+
+
+
+.team-item1:hover .team-overlay{
+    visibility: visible;
+    opacity: 0.7;
+}
+.team-item2:hover .team-overlay{
+    visibility: visible;
+    opacity: 0.7;
+}
+.team-item3:hover .team-overlay{
+    visibility: visible;
+    opacity: 0.7;
+}
+.team-item2:hover .team-overlay{
+    visibility: visible;
+}
+.team-item3:hover .team-overlay{
+    visibility: visible;
+}
+.team-item1::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0, 0, 0.5);
+    opacity: 0;
+}
+.team-item1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.team-item2::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0, 0, 0.5)
+    opacity: 0;
+}
+.team-item2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.team-item3::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0, 0, 0.5);
+    opacity: 0;
+}
+.team-item3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.team-overlay a{
+    display: inline;
+    width:25;
+    height: 25;
+   text-align: center;
+   top: 150px;
+color:blue;
+font-size: 20;
+margin-left:auto;
+}
+
+.team-overlay  a  i{
+    line: height 20px;
+    margin-top: 150px;
+    color: aqua;
+}
+.t1{
+    text-transform: uppercase;
+    padding: 0px 5px;
+    color:blueviolet;
+}
+.t2{
+    text-transform: uppercase;
+    padding: 0px 5px;
+    color:blueviolet;
+}
+.t3{
+    text-transform: uppercase;
+    padding: 0px 5px;
+    color:blueviolet;
+}
+.s1{
+    text-transform: capitalize;
+
+}
+.s2{
+    text-transform: capitalize;
+}
+.s3{
+    text-transform: capitalize;
+}
+.allteams:hover .s1{
+
+color: aqua;
+}
+.allteams:hover .s2{
+
+    color: aqua;
+    }
+    .allteams:hover .s3{
+
+        color: aqua;
+        }
+
+
+.parentoffer{
+    width: 100%;
+    height: 1000px;;
+    background-color: very lightgray;
+}
+
+.line1{
+    width: 100%;
+    height: auto;
+   
+}
+
+.all3{
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    margin: auto;
+}
+
+
+.appdevelopment{
+    width: 25%;
+    height: 200px; 
+    border-style: solid;
+    float: left;
+margin-left: 50;
+text-align: center;
+position: relative;
+}
+.graphicdesign{
+    width: 25%;
+    height: 200px; 
+    border-style: solid;
+    float: left;
+margin-left: 50;
+text-align: center;
+position: relative;
+}
+.creativeidea{
+    width: 25%;
+    height: 200px; 
+    border-style: solid;
+    float: left;
+    margin-left: 50;
+    text-align: center;
+    position: relative;
+}
+
+.appdevelopment::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.appdevelopment:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.graphicdesign::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.graphicdesign:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.creativeidea::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.creativeidea:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+
+.marketting{
+    width: 25%;
+    height: 175px; 
+    border-style: solid;
+    float: left;
+margin-left: 50;
+text-align: center;
+position: relative;
+}
+.awesomesupport{
+    width: 25%;
+    height: 200px; 
+    border-style: solid;
+    float: left;
+margin-left: 50;
+text-align: center;
+position: relative;
+}
+.branddesign{
+    width: 25%;
+    height: 200px; 
+    border-style: solid;
+    float: left;
+    margin-left: 50;
+    text-align: center;
+    position: relative;
+}
+
+.marketting::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.marketting:hover::after{
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.awesomesupport::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.awesomesupport:hover::after{
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.branddesign::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.branddesign:hover::after{
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.offer{
+    text-align: center;
+    font-size: x-large;
+}
+.h2offer{
+    width: 20px;
+    height: 5px;
+    background-color: blue;
+    margin: auto;
+}
+.far{
+    color: blue;
+    font-size:xx-large;
+}
+.fas{
+    color: blue;
+    font-size:xx-large
+}
+.parentoffer h2{
+    font-size: x-large;
+}
+
+.rightimage img{
+    width: 250px;
+    height: 250px;
+}
+.text{
+    float :left ;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.rightimage{
+    float: left;
+   
+}
+.why{
+    overflow: auto;
+}
+.why h2{
+    margin-left: 150px;
+    font-size: xx-large;
+}
+
+.underline{
+   width: 50px;
+   height: 5px;
+   background-color: blue;
+   margin-left: 150px;
+}
+
+p{
+    line-height: 50px;
+}
+
+.backgroundimage{
+    background-image: url("../images/stars.jpeg")  ;
+    background-attachment:fixed;
+        object-fit: cover;
+    width: 100%;
+    height: 300px;px;
+   margin: auto;
+
+}
+
+.cup1, .cup2 , .cup3, .cup4{
+    float: left;
+   margin: auto;
+   padding: 20px;
+}
+.icons{
+    margin: auto;
+}
+.iconcontainer{
+    width: 70%;
+    height: 70%;
+    transform: translate(+50%,+50%);
+}
+.backgroundimage p{
+    color: #f0f0f0;
+}
+
+.radio{
+    margin-left:100px ;
+  accent-color:blue;
+}
+.recentnews{
+    width: 100%;
+    height:600px;
+    overflow: auto;
+   background-color: lightgray;
+}
+
+.hrecentnews{
+    font-size: xx-large;
+text-align: center;
+color:rgba(0, 0, 0, 0.959);
+opacity: 1;
+padding-top: 50px;
+
+
+}
+.recentnewsunderline{
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    margin: auto;
+    margine top: 50px;
+}
+
+
+.recentnewsallitems1{
+    width:25%; 
+    height: 400px;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 100px;
+    position:relative;
+    background-color: white;
+}
+.recentnewsallitems1::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.recentnewsallitems1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.recentnewsallitems2{
+    width: 25%; 
+    height: 400px;
+    float: left;
+   box-sizing: border-box;
+   border-style: solid;
+   padding-left: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 50px;
+   background-color: white;
+   position: relative;
+}
+.recentnewsallitems2::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.recentnewsallitems2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+
+.recentnewsallitems3{
+    width: 25%; 
+    height: 400px;
+    float: left;
+    border-style: solid;
+    padding-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+}
+.recentnewsallitems3::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.recentnewsallitems3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+
+.recentnewsimage1{
+    width:100%;
+    height: auto ;
+}
+.imgrecentnews{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+
+
+.readmore1{
+    color: blue;
+   text-align:left ;
+}
+.readmore2{
+    color: blue;
+   text-align:left ;
+}
+.readmore3{
+    color: blue;
+   text-align:left ;
+}
+.read1{
+    width:auto;
+    height: auto;
+    padding-left: 15px;
+}
+.read2{
+    width:auto;
+    height: auto;
+    padding-left: 30px;
+}
+.read3{
+    width:auto;
+    height: auto;
+    padding-left:70px;
+}
+
+
+.footer{
+    width:1005;
+    height: 500px;
+  background-color: rgba( 0,0 , 0, 0.7);
+    
+}
+
+.allfooteritems{
+
+    padding-top: 150px;
+ 
+    margin: auto;
+    text-align: center;
+}
